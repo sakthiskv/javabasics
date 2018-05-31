@@ -1,15 +1,23 @@
 package com.basic;
 
 public class DataTypeExample {
-	public static void main(String[] args) {
-		String one="i am";
-		String two=" sakthiskv";
-		System.out.println(one+ two);
-		System.out.println(10<20);
-		System.out.println(20<10);
-		
+	
+		public static void main(String[] args) {
+		for (int i= 1; i <= 5; i++ )
+		{
+		for (int j= 1; j <= 3; j++ )
+		{
+		for (int k= 1; k <= 4; k++ )
+		System.out.print( '*' );
+		System.out.println();
+		} // end inner for
+		System.out.println();
+		} // end outer for
+
+
+		}	
 	 
 	}
 	
 
-}
+

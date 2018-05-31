@@ -45,6 +45,7 @@ public void empId() {
 		else
 			System.out.println("invalid salary");
 	}
+	
 
  }
  public class Employee1 {
@@ -74,6 +75,9 @@ public void empId() {
 				System.out.println(emp1.getId());
 				System.out.println(emp1.getSalary());
 				emp1.salaryCal();
+				
+				
+				
 	 }
 		 
 	 }
